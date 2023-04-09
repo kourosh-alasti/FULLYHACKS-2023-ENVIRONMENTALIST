@@ -1,0 +1,97 @@
+/* Add your font via Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0; 
+    padding: 500; 
+    box-sizing: border-box;
+    font-family: inherit;
+     
+}
+
+body {
+  line-height: 2;
+}
+
+.start-container {
+  margin: 0 auto;    /*Center the "Save the World button*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+}
+
+.start-btn {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--midori_green);
+    box-shadow: 0 5px 0 var(--black_000);
+    color: var(--body_bg);
+}
+.start-btn:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+
+
+
+/* Define your color scheme here, taken from Fullyhacks color scheme */
+:root {
+  --body_bg: #fffaf1;
+  --sky_100: #abe1ff;
+  --sky_300: #18aaff;
+  --blue_300: #385ddf;
+  --purple_300: #9ea8ff;
+  --purple_hover: #3b3561;
+  --purple_500: #4f38df;
+  --pink_700: #b438df;
+  --pink_400: #ff8f8f;
+  --pink_300: #df389c;
+  --pink_100: #ffabce;
+  --orange_300: #ffc985;
+  --orange_100: #ffedcc;
+  --purple_main: #340b67;
+  --purple_main_hover: #b49fcc;
+  --midori_green: #2a603b;
+  --black_000: #000000;
+}
+
+html {
+  background-color: var(--body_bg);
+  font-family: "Rubik";
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.nav-bar{
+  background-color: var(--purple_300);
+  padding: 1.5rem;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.nav-link { 
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.title {
+  color: var(--sky_300);
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.pictureCaption {
+  margin-top: 1rem;
+}
+.fullypic {
+  margin-top: 2rem;
+  object-fit: cover;
+}

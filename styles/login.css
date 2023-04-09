@@ -1,0 +1,11 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.login-container {
+    width: 450px; 
+    height: 900px;
+    background-color: #fffaf1;
+}

@@ -1,0 +1,26 @@
+
+
+.bubble-container {
+    height: 200px;          /*Creates the Bubble*/
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+
+margin: 0 auto;             /*Center the Bubble*/
+position: absolute;
+top: 50%;
+left: 50%;
+  
+  border:1px solid #000;  /*Border of Circle*/
+  }
+
+.bubble-pogress {
+    height: 50px;
+    border-radius: 20px;
+    float: left;
+    width: 50%;
+
+}
+
+.bubble-container {} 
