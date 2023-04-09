@@ -1,0 +1,304 @@
+{
+    "quiz": {
+        "1": {
+            "question": "Which of these materials cannot be recycled?",
+            "options": [
+                "Metals",
+                "Plastic Bottles",
+                "Paper and Cardboard",
+                "Lightbulbs"
+            ],
+            "answer": "Lightbulbs"
+        },
+        "2": {
+            "question": "Which of these is a renewable energy source?",
+            "options": [
+                "Coal",
+                "Nuclear Energy",
+                "Natural Gas",
+                "Wind Energy"
+            ],
+            "answer": "Wind Energy"
+        },
+        "3": {
+            "question": "Which of the following will help you save water?",
+            "options": [
+                "Close taps properly and fix leaking taps, pipes, and toilets",
+                "Flush the toilet 3 times",
+                "Take long showers",
+                "Leave the faucet on while you brush your teeth"
+            ],
+            "answer": "Close taps properly and fix leaking taps, pipes, and toilets"
+        },
+        "4": {
+            "question": "Which is the most eco-friendly transportation?",
+            "options": [
+                "Car",
+                "Bike",
+                "Bus",
+                "Motorcycle"
+            ],
+            "answer": "Bike"
+        },
+        "5": {
+            "question": "What day is Earth Day?",
+            "options": [
+                "March 12",
+                "October 2",
+                "April 22", 
+                "May 9"
+            ],
+            "answer": "April 22"
+        }, 
+        "6": {
+            "question": "Which of the following is a greenhouse gas?",
+            "options": [
+                "Carbon Dioxide (CO2)",
+                "Methane (CH4)",
+                "Nitroux Oxide (N2O)",
+                "All of the Above"
+            ],
+            "answer": "All of the Above"
+        },
+        "7": {
+            "question": "Which of these countries emits the most Carbon Dioxide?",
+            "options": [
+                "China",
+                "Russia",
+                "USA",
+                "Australia"
+            ],
+            "answer": "China"
+        },
+        "8": {
+            "question": "How long does a Styrofoam Cup take to decompose?",
+            "options": [
+                "50 Years",
+                "100 Years",
+                "300 Years",
+                "500 Years"
+            ],
+            "answer": "500 Years"
+        },
+        "9": {
+            "question": "What is the most common type of trash that litters our oceans?", 
+            "options": [
+                "Cigarettes",
+                "Plastic Bags",
+                "Beverage Plastic Bottles",
+                "Straws/Stirrers"
+            ],
+            "answer": "Cigarettes"
+        },
+        "10": {
+            "question": "How long does it take for a glass bottle/jar to decompose?",
+            "options": [
+                "100 Years",
+                "4.000 Years",
+                "10.000 Years",
+                "40.000 Years"
+            ],
+            "answer": "40.000 Years"
+        },
+        "11": {
+            "question": "I produce acorns that squirrels love to eat. What type of tree am I?",
+            "options": [
+                "Oak",
+                "Elm",
+                "Poplar",
+                "Yew"
+            ],
+            "answer": "Oak"
+        },
+        "12": {
+            "question": "I am the tallest tree in the world. What tree am I?",
+            "options": [
+                "Maple",
+                "Sequoia",
+                "Elm",
+                "Eucalyptus"
+            ],
+            "answer": "Sequoia"
+        },
+        "13": {
+            "question": "What is the age of the oldest living tree on earth?",
+            "options": [
+                "4.500 years old",
+                "132 years old",
+                "690 years old",
+                "5.602 years old"
+            ],
+            "answer": "5.602 years old"
+        },
+        "14": {
+            "question": "Where can you find the oldest living tree?",
+            "options": [
+                "Yellowstone National Park",
+                "Sahara Desert",
+                "White Mountains of California",
+                "Amazon Rainforest"
+            ],
+            "answer": "White Mountains of California"
+        },
+        "15": {
+            "question": "What do you call a tree that doesn't lose its leaves in teh fall?",
+            "options": [
+                "Indestructible",
+                "Evergeen",
+                "Christmas Tree",
+                "Annual"
+            ],
+            "answer": "Evergreen"
+        },
+        "16": {
+            "question": "Which season does the tree's leaves turn from green to red, orange, or yellow?",
+            "options": [
+                "Winter",
+                "Spring",
+                "Summer",
+                "Fall"
+            ],
+            "answer": "Fall"
+        },
+        "17": {
+            "question": "What type of gas do trees and other plants product that is helpful to humans?",
+            "options": [
+                "Oxygen",
+                "Hydrogen",
+                "Helium",
+                "Nitrogen"    
+            ],
+            "answer": "Oxygen"
+        },
+        "18": {
+            "question": "Which is the fastest growing tree?", 
+            "options": [
+                "Oak",
+                "Pine",
+                "Bamboo",
+                "Maple"
+            ],
+            "answer": "Bamboo"
+        },
+        "19": {
+            "question": "How many (estimated) trees are living on earth?",
+            "options": [
+                "300.000",
+                "3.000.000.000.000",
+                "8.000.000.000",
+                "8.000.000"
+            ],
+            "answer": "3.000.000.000.000"
+        },
+        "20": {
+            "question": "I am atype of tree that can grow in salty water, you can find me along rivers and shores. What tree am I?",
+            "options": [
+                "Coconut",
+                "Mango",
+                "Mangrove",
+                "Palm"
+            ],
+            "answer": "Mangrove"
+        },
+        "21": {
+            "question": "How much garbage can one person make in a day?",
+            "options": [
+                "3 Pounds",
+                "4 Pounds",
+                "5 Pounds",
+                "2 Pounds"
+            ],
+            "answer": "4 Pounds"
+        },
+        "22": {
+            "question": "What is recycling?",
+            "options": [
+                "Burning garbage material",
+                "Burying garbage material",
+                "Reusing garbage material",
+                "Throwing garbage material"
+            ],
+            "answer": "Reusing garbage material"
+        },
+        "23": {
+            "question": "What percent of our trash can be recycled?",
+            "options": [
+                "90%",
+                "50%",            
+                "75%",
+                "40%"
+            ],
+            "answer": "40%"
+        },
+        "24": {
+            "question": "How much food is wasted in a year?",
+            "options": [
+                "21.5 Million Tons",
+                "20.000 Tons",
+                "200 Tons",
+                "1.5 Tons"
+            ],
+            "answer": "21.5 Million Tons"
+        },
+        "25": {
+            "question": "What does recycling help protect?",
+            "options": [
+                "The Oceans",
+                "The Animals",
+                "The Forests",
+                "The Earth"
+            ],
+            "answer": "The Earth"
+        },
+        "26": {
+            "question": "How much plastic ends up in our seas every year?",
+            "options": [
+                "8 Tons",
+                "800 Tons",
+                "8.000 Tons",
+                "8.000.000 Tons"
+            ],
+            "answer": "8.000.000 Tons"
+        },
+        "27": {
+            "question": "How many times can we recycle a cardboard box?",
+            "options": [
+                "7 times",
+                "2 times",
+                "10 times",
+                "5 times"
+            ],
+            "answer": "7 times"
+        },
+        "28": {
+            "question": "What type of useful metals can we find in recycled electronic waste?",
+            "options": [
+                "Gold",
+                "Silver",
+                "Copper",
+                "All of the Above"
+            ],
+            "answer": "All of the Above"
+        },
+        "29": {
+            "question": "How many years does it take for plastic to decompose?",
+            "options": [
+                "150 years",
+                "250 years",
+                "450 years",
+                "500 years"
+            ],
+            "answer": "450 years"
+        },
+        "30": {
+            "question": "What is the most recycled trash in the world?",
+            "options": [
+                "Cardboard",
+                "Plastic Bottles",
+                "Aluminum Cans",
+                "Glass Bottles"
+            ],
+            "answer": "Aluminum Cans"
+        }
+    }
+}

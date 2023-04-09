@@ -9,6 +9,21 @@
      
 }
 
+
+.login-btn {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--midori_green);
+  color: var(--body_bg);
+  z-index:999
+}
+.login-btn:active{
+  box-shadow: none;
+  transform: translateY(5px);
+  z-index: 999;
+}
+
 body {
   line-height: 2;
 }
@@ -25,7 +40,7 @@ html {
     flex-direction: column;
   }
   .nav-bar{
-    background-color: var(--purple_300);
+    background-color: var(--darkreader);
     padding: 1.5rem;
     width: 100%;
     display: flex;
@@ -40,6 +55,7 @@ html {
   }
 
   :root {
+    --height: -80px;
     --body_bg: #fffaf1;
     --sky_100: #abe1ff;
     --sky_300: #18aaff;
@@ -57,4 +73,68 @@ html {
     --purple_main_hover: #b49fcc;
     --midori_green: #2a603b;
     --black_000: #000000;
+    --darkreader: #2c2e2f;
   }
+
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  .circle{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    background: #ccc;
+    border: 5px solid #4973ff;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .wave{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #4973ff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  }
+  .wave:before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: var(--height); /* filled is -80px, empty is 80px */
+    left: 50%;
+    transform: translate(-50%, -75%);
+    transition: top 100ms;
+  }
+  .wave:before{
+    border-radius: 45%;
+    background: rgba(255, 255, 255, 1);
+    animation: animate 5s linear infinite;
+  }
+  @keyframes animate{
+    0%{
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+  }
+  /* tabs animation */
+.animated-list li {
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+}
+.animated-list li:hover {
+  transform: translateY(-5px);
+}
+.animated-list li:active {
+  transform: translateY(5px);
+}
+  
+  
+  
