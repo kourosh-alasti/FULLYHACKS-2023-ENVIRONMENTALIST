@@ -58,15 +58,3 @@ html {
     --midori_green: #2a603b;
     --black_000: #000000;
   }
-
-  /* tabs animation */
-.animated-list li {
-  transition: all 0.3s ease-in-out;
-}
-.animated-list li:hover {
-  transform: translateY(-5px);
-}
-.animated-list li:active {
-  transform: translateY(5px);
-}
-
